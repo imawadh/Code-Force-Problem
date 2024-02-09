@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/awadh/OneDrive/Desktop/Code Forces 800 Level",
-      "program": "c:/Users/awadh/OneDrive/Desktop/Code Forces 800 Level/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
