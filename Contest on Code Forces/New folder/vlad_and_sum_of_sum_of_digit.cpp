@@ -9,9 +9,9 @@ int main()
     cin>>t;
     for(int i =0 ; i<t ; i++)
     {
-        int n;
+        long long int n;
         cin>>n;
-        int arr[n];
+        long long int arr[n];
         for(int j = 1 ; j<=n ; j++)
         {
             arr[j-1]=j;
