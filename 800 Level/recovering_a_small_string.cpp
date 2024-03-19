@@ -1,22 +1,24 @@
 # include <bits/stdc++.h>
-# include <string>
-// Not Solved
 using namespace std;
 int main()
 {
     int t;
     cin>>t;
-    for(int i = 0; i<t ; i++)
+    for(int i =0 ;i<t ;i++)
     {
         int a;
         cin>>a;
-        char str[3];
+        string str = "aaa";
         if(a<=28)
         {
-            str[0]=char(97);
-            str[1]=char(97);
-            str[2]=char(97+(a-2));
+            str[0]='a';
+            str[1]='a';
+            str[2]=char(94+a);
         }
-        cout<<str;
+        else{
+            int count_z = a/26;
+            
+        }
+        cout<<str<<'\n';
     }
 }

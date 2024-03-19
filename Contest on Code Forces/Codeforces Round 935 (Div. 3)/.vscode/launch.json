@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Desktop/Nothing/Code_Forces/800 Level",
-      "program": "d:/Desktop/Nothing/Code_Forces/800 Level/build/Debug/outDebug",
+      "cwd": "d:/Desktop/Nothing/Code_Forces/Contest on Code Forces/Codeforces Round 935 (Div. 3)",
+      "program": "d:/Desktop/Nothing/Code_Forces/Contest on Code Forces/Codeforces Round 935 (Div. 3)/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
