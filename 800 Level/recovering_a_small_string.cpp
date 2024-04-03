@@ -4,21 +4,28 @@ int main()
 {
     int t;
     cin>>t;
-    for(int i =0 ;i<t ;i++)
+    string str = "aaa";
+    for(int i =0 ; i<t; i++)
     {
         int a;
         cin>>a;
-        string str = "aaa";
-        if(a<=28)
+        
+        a-=2;
+        int count_z = a/26;
+        if(count_z==0)
         {
-            str[0]='a';
-            str[1]='a';
             str[2]=char(94+a);
         }
-        else{
-            int count_z = a/26;
-            
+        else if(count_z==1)
+        {
+            str[2]='z';
+            str[1]=char(94+a-26);
         }
-        cout<<str<<'\n';
+        else{
+            str[2]='z';
+            str[1]='z';
+            str[0]=char(94+a-52);
+        }
     }
+    cout<<str;
 }
