@@ -1,2 +1,4 @@
 a  =int(input())
-print((5**a)%100)
+#  solved
+
+print(pow(5,a,100))
