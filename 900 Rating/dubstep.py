@@ -1,6 +1,6 @@
 # Solved 
-str = int()
+str = input()
 i = 0
-while(i<len(str)-3):
-    if (str[i]=='W'):
-        i+=1
+str = str.replace('WUB',' ')
+print(' '.join(str.split()))
+
