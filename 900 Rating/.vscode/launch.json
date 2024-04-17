@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Desktop/Nothing/Code_Forces/DSA Deepak Sir/Practice Contest 1",
-      "program": "d:/Desktop/Nothing/Code_Forces/DSA Deepak Sir/Practice Contest 1/build/Debug/outDebug",
+      "cwd": "d:/Desktop/Nothing/Code_Forces/900 Rating",
+      "program": "d:/Desktop/Nothing/Code_Forces/900 Rating/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
