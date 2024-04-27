@@ -1,5 +1,5 @@
 test_cases = int(input())
-
+# not solved 
 for i in range(test_cases):
     str = input()
     answer =" "

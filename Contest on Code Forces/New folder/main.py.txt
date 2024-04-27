@@ -1,0 +1,33 @@
+# solved 
+
+test = int(input())
+for i in range(test):
+    n,k = map(int,input().split())
+    values = list(map(int,input().split()))
+    if(n<k):
+        print(n)
+    else:
+        values.sort()
+        # print(values)
+        count = 0
+        flag = False
+        match = values[0]
+        for i in range(len(values)):
+            
+            if(match==values[i]):
+                count+=1
+            else:
+                match=values[i]
+                count=1
+                # print(match)
+            # print(count)
+            if(count >= k):
+                flag =  True
+                print(k-1)
+                break
+            
+        if(flag==False):
+            print(n)
+        
+
+            
