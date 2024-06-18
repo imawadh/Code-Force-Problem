@@ -1,5 +1,6 @@
 # include <bits/stdc++.h>
 using namespace std;
+// Solved 
 int main()
 {
     long n;
